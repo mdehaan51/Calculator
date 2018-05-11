@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/mdehaan51/pen/MVELoo.
-
- Basic Calculator App for freeCodeCamp
+ Basic Calculator App for freeCodeCamp.
+ 
+ Can do basic arithmatic. +,-,*,/,^.
