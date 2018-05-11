@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head></head>
+<body>
+  <div id = "calculator">
+    
+    <div class = "screen">
+      <p id = "display"></p>
+      <p id = "savedData" class = "bottomright"></p>
+    </div>
+    <div id = "keyboard">
+    <div class = "col-xs-12">
+      <span><input type = "button" class = "btn btn-danger calcbutton" value = "AC" onclick= "allClear()"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "CE" onclick= "clearButton()"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "^" onclick= "buttonClick('^')"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = " / " onclick= "buttonClick('/')"></span>
+    </div>
+    <div class = "col-xs-12">
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "7" onclick= "buttonClick(7)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "8" onclick= "buttonClick(8)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "9" onclick= "buttonClick(9)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = " x " onclick= "buttonClick('x')"></span>
+    </div>
+    <div class = "col-xs-12">
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "4" onclick= "buttonClick(4)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "5" onclick= "buttonClick(5)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "6" onclick= "buttonClick(6)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = " - " onclick= "buttonClick('-')"></span>
+    </div>
+    <div class = "col-xs-12">
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "1" onclick= "buttonClick(1)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "2" onclick= "buttonClick(2)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "3" onclick= "buttonClick(3)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = " + " onclick= "buttonClick('+')"></span>
+    </div>
+    <div class = "col-xs-12">
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "." onclick= "buttonClick('.')"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "0" onclick= "buttonClick(0)"></span>
+    <span><input type = "button" class = "btn btn-primary calcbutton" value = "(-)" onclick= "buttonClick('-')"></span>
+    <span><input type = "button" class = "btn btn-warning calcbutton" value = "=" onclick= "doMath()"></span>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/js/bootstrap.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
